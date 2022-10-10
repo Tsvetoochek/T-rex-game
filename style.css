@@ -15,14 +15,14 @@
 }
 
 #cactus {
-    width: 50px;
-    height: 60px;
+    width: 40px;
+    height: 50px;
     background-image: url(img/cactus-logo.png);
-    background-size: 50px 60px;
+    background-size: 40px 50px;
     position: relative;
-    top: 90px;
+    top: 100px;
     left: 570px;
-    animation: cactusMov 2s infinite linear;
+    animation: cactusMov 1s infinite linear;
 }
 
 @keyframes cactusMov {
@@ -36,7 +36,7 @@
 }
 
 .jump {
-    animation: jump 2s linear;
+    animation: jump 0.3s linear;
 }
 
 @keyframes jump {
